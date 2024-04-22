@@ -3,7 +3,7 @@ version: '1'
 services:
   app-1:
     build: .
-    image: lachy/node-web-app
+    image: lachyr/nodewebappwk5
     ports:
       - '3040:3040'
     environment:
